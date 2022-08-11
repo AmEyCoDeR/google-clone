@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png">
+    <title>Google</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="https://about.google.com" target="_self">About</a></li>
+            <li><a href="https://mail.google.com" target="_self">Gmail</a></li>
+        </ul>
+        <ul>
+            <li><a href="#apps"><span class="material-symbols-outlined">apps</span></a></li>
+            <li><a href="#account"><span class="material-symbols-outlined">hdr_auto</span></a></li>
+        </ul>
+    </header>
+    <main>
+        <center>
+        <img src="https://s3.amazonaws.com/freebiesupply/large/2x/google-logo-transparent.png" alt="logo">
+        <div class="input">
+            <a href="#subscribe" onclick="google()" style="align-self: center;"><span class="material-symbols-outlined">search</span></a>
+            <input type="text" id="search-element">
+            <a href="#mic"><span class="material-symbols-outlined">mic</span></a>
+        </div>
+    </center>
+    </main>
+    <br>
+    <center>
+    <button onclick="google()">Google Search</button>
+    <button onclick="window.open('https://www.google.com/doodles','_self');">I'm Feeling Lucky</button>
+</center>
+    <script src="sketch.js"></script>
+</body>
+</html>
